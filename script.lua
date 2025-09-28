@@ -215,7 +215,7 @@ local stop = makeBtn("[A] Auto Stop: OFF",0,BUTTON_RED,BUTTON_RED_HOVER,
 	function(b) updateStop(b) end)
 stop.MouseButton1Click:Connect(function() autoStopOn = not autoStopOn; updateStop(stop) end)
 
-local reroll = makeBtn("[B] Randomize Pet",32,BUTTON_BLUE,BUTTON_BLUE_HOVER)
+local reroll = makeBtn("[B] INFINITE EXP BATTLEPASS",32,BUTTON_BLUE,BUTTON_BLUE_HOVER)
 reroll.MouseButton1Click:Connect(function()
 	for _,data in pairs(displayedEggs) do
 		local pet = getNonRepeatingRandomPet(data.eggName, data.lastPet)
